@@ -1,0 +1,26 @@
+README for the NaturalSelectionSim
+
+This is a multithreaded Java application simulating a number of 
+carnivorous and herbivorous Critters in a small environment. The creatures
+will attempt to eat whatever they can and reproduce.
+
+If you'd like to see the code in action, there are two YouTube videos you can view here:
+Random Simulation: http://www.youtube.com/watch?v=_W-ZO2t3xLU
+Custom Simulation: http://www.youtube.com/watch?v=CQm2kGNtgqQ
+
+If you want to download and play with it yourself, you will need to point the code
+looking for the sprite ("omnicrit.png", used for Critters and Food and the 8 directional
+sprites "Ncrit.png", "Wcrit.png", "NWcrit.png", etc) to where it is on your
+computer   
+
+This is currently an unfinished product. The GUI will recieving an 
+overhall, more options will be added to the Critter Creation, distinct
+species will be added and the Critters will be able to do more. Hoever, 
+I am currently working on another very big programming project (my game
+GS; info also here on github), as well as several other large projects 
+for college (games/malware reverse engineering) which I will put up here 
+when done. As such, I will work more on this around the summer of 2014.
+
+
+
+
