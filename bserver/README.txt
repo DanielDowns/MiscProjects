@@ -1,6 +1,8 @@
+This code will be taken down after a decision has been made by the examining body.
+
 The API is very strict in what it will accept. Per the requirements, it will only accept:
 
--Level (1 – 85)
+-Level (1 â€“ 85)
 -Race (Orc, Tauren, Blood Elf, Human, Gnome, Worgen)
 -Class (Warrior, Druid, Death Knight, Mage)
 -Faction (Horde, Alliance)
