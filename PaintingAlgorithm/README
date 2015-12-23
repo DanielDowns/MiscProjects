@@ -1,0 +1,6 @@
+This was a final project for a graphics class I took. Two algorithms are implemented: 
+
+1) a randomizing algorithm that randomly paints strokes on the canvas X number of times
+2) an algorithm heavily based on Peter Litwinowicz's work 
+      (http://www.cs.virginia.edu/~dbrogan/CS551.851.animation.sp.2000/Papers/p407-litwinowicz.pdf)
+
