@@ -19,11 +19,8 @@ radius = 2
 #space between strokes for NCSA
 gap = 3
 
-imString = "C:\Users\User\Pictures\ScreenSaver\kestrel_cruiser___ftl___faster_than_light_by_nateag-d7kce11.jpg"
-altImString = "C:\\Users\User\\Pictures\\ScreenSaver\\transistor.jpg"
-alt2String = "C:\\Users\\User\\Pictures\\ScreenSaver\\calvin-and-hobbes-15320-1920x1200.jpg"
-alt3String = "C:\\Users\\User\\Pictures\\hand.png"
-im = Image.open(altImString, 'r')	
+imString = ###absolute file name should go here
+im = Image.open(imString, 'r')	
 edges = im.filter(ImageFilter.FIND_EDGES)
 
 stroke = Image.open("C:\Users\User\Pictures\stroke.png")
