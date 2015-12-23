@@ -2,8 +2,6 @@
 #http://www.cs.virginia.edu/~dbrogan/CS551.851.animation.sp.2000/Papers/p407-litwinowicz.pdf
 
 from PIL import Image, ImageFilter
-#import os
-#from os import path
 import time
 import pdb
 import math
@@ -11,7 +9,7 @@ import copy
 import sys
 from random import randint, uniform
 
-#set to True to use Random Strokes Algorithm, set to False for Noisy Clipped Strokes Algorithm
+#set to True to use Random Strokes Algorithm, set to False for Litwinowinz's algorithm
 randomDraw = True
 
 #stroke radius for NCSA
@@ -23,7 +21,7 @@ imString = ###absolute file name should go here
 im = Image.open(imString, 'r')	
 edges = im.filter(ImageFilter.FIND_EDGES)
 
-stroke = Image.open("C:\Users\User\Pictures\stroke.png")
+stroke = Image.open("C:\Users\User\Pictures\stroke.png") #location of "paint stroke" image here
 
 canvas = Image.new('RGB', im.size,  (255, 255, 255))
 width = im.size[0]
